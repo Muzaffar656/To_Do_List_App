@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react'
+import TodoWrapper from './component/TodoWrapper'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    <h1>Hello Zaffar</h1>
-    </div>
-  );
+    <>
+      <TodoWrapper/>
+    </>
+  )
 }
 
-export default App;
+export default App
